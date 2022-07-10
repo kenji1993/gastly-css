@@ -9,12 +9,41 @@
     border-top: 0;
     border-bottom-right-radius: 20rem;
     border-bottom-left-radius: 20rem;    
+    box-shadow: inset -0.2rem -0.2rem 0.9rem 0.01rem black;
     display: flex;
     justify-content: flex-end;
     height: 10rem;
     margin-right: 3rem;
     transform: rotate(30deg);
     width: 18rem;
+}
+.left-wrinkle-bottom {
+    border: 0.2rem solid rgb(221, 103, 70);
+    border-right: 2rem;
+    border-top: 20rem;
+    border-bottom: 20rem;
+    border-radius: 4rem 1rem 15rem 1rem;
+    /* border-bottom-left-radius: 0;    
+    border-bottom-right-radius: 4rem;     */
+    height: 4rem;
+    margin: 4.6rem 1rem 2rem 14rem;
+    transform: rotate(30deg) rotateY(130deg);
+    position: absolute;
+    width: 6rem;
+}
+.right-wrinkle-bottom {
+    border: 0.2rem solid rgb(221, 103, 70);
+    border-right: 2rem;
+    border-top: 20rem;
+    border-bottom: 20rem;
+    border-radius: 4rem 1rem 15rem 1rem;
+    /* border-bottom-left-radius: 0;    
+    border-bottom-right-radius: 4rem;     */
+    height: 4rem;
+    margin: 4.3rem 1rem 2rem 22rem;
+    transform: rotate(-35deg) rotateY(50deg);
+    position: absolute;
+    width: 6rem;
 }
 
 .right-eye-wrapper {
@@ -23,6 +52,8 @@
     border-top: 0;
     border-bottom-right-radius: 20rem;
     border-bottom-left-radius: 20rem;
+    box-shadow: inset -0.2rem -0.2rem 0.9rem 0.01rem black;
+
     height: 10rem;
     margin-left: 3rem;
     transform: rotate(-30deg);
@@ -43,4 +74,44 @@
     margin: 2rem 2rem 5rem 3rem; 
     transform: rotate(356deg);
     width: 2rem;
+}
+
+.left-wrinkle-top {
+    border: 0.1rem solid rgb(221, 103, 70);
+    height: 2rem;
+    margin-left: 19rem;
+    border-radius: 2rem;
+    margin-top: 2.5rem;
+    position: absolute;
+    transform: rotate(-20deg);
+}
+
+.right-wrinkle-top {
+    border: 0.1rem solid rgb(221, 103, 70);
+    height: 2rem;
+    margin-left: 23.2rem;
+    border-radius: 2rem;
+    margin-top: 2.5rem;
+    position: absolute;
+    transform: rotate(20deg);
+}
+
+.left-eyebrow {
+    background: black;
+    border: 0.13rem solid black;
+    height: 22rem;
+    margin-top: -11.5rem;
+    margin-left: 10rem;
+    position: absolute;
+    transform: rotate(-60deg);
+}
+
+.right-eyebrow {
+    background: black;
+    border: 0.13rem solid black;
+    height: 22rem;
+    margin-top: -11.5rem;
+    margin-left: 32rem;
+    position: absolute;
+    transform: rotate(60deg);
 }
