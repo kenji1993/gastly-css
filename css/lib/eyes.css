@@ -1,0 +1,46 @@
+.eyes {
+    display: flex;
+    width: 50rem;
+    margin-right: -8rem;
+}
+.left-eye-wrapper {
+    background: white;
+    border: 0.1rem solid black;
+    border-top: 0;
+    border-bottom-right-radius: 20rem;
+    border-bottom-left-radius: 20rem;    
+    display: flex;
+    justify-content: flex-end;
+    height: 10rem;
+    margin-right: 3rem;
+    transform: rotate(30deg);
+    width: 18rem;
+}
+
+.right-eye-wrapper {
+    background: white;
+    border: 0.1rem solid black;
+    border-top: 0;
+    border-bottom-right-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+    height: 10rem;
+    margin-left: 3rem;
+    transform: rotate(-30deg);
+    width: 18rem;
+}
+.left-eye {
+    background: black;
+    border-radius: 2rem 0.5rem;
+    height: 2rem;
+    margin: 2rem 3rem 1rem 7rem; 
+    transform: rotate(93deg);
+    width: 2rem;
+}
+.right-eye {
+    background: black;
+    border-radius: 2rem 0.5rem;
+    height: 2rem;
+    margin: 2rem 2rem 5rem 3rem; 
+    transform: rotate(356deg);
+    width: 2rem;
+}

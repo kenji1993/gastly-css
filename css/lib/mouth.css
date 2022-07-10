@@ -1,0 +1,36 @@
+.mouth {
+    background: #cb4242;
+    border-bottom-right-radius: 50rem;
+    border-bottom-left-radius: 50rem;
+    box-shadow: 0.5rem 0.5rem 10rem#b32828;
+    display: flex;
+    height: 4rem;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: -2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 13rem;
+}
+
+.left-canine {
+    border-left: 3rem solid white;
+    border-top: 1.2rem solid transparent;
+    border-bottom: 1.2rem solid transparent;
+    border-bottom-right-radius: 2rem;
+    height: 0rem;
+    margin-top: 0.3rem;
+    transform: rotate(90deg);
+    width: 0rem;
+}
+
+.right-canine {
+    border-left: 3rem solid white;
+    border-top: 1.2rem solid transparent;
+    border-bottom: 1.2rem solid transparent;
+    border-bottom-right-radius: 2rem;
+    height: 0rem;
+    margin-top: 0.3rem;
+    transform: rotate(90deg);
+    width: 0rem;
+}
