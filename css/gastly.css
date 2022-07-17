@@ -16,18 +16,9 @@
     justify-content: center;
     width: 30rem;
     height: 30rem;
+    position: relative;
 }
 
-/* .light {
-    box-shadow: inset 0.11rem 0.6rem rgb(77, 74, 74);
-    border-radius: 50%;
-    width: 20rem;
-    height: 10rem;
-    position: absolute;
-    top: 33rem;
-    left: 37rem;
-    transform: rotate(-30deg);
-} */
 .light {
     box-shadow: inset 0.1rem 0.4rem rgb(77, 74, 74);
     border-radius: 50%;

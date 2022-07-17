@@ -1,0 +1,18 @@
+.moon {
+    background: rgb(156, 190, 200);
+    border-radius: 15rem;
+    box-shadow: inset -0.9rem -0.5rem 1.5rem 0.1rem rgb(92, 143, 160);
+    box-shadow: 0rem 0rem 20rem 10rem rgb(130, 136, 138);
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    width: 25rem;
+    display: flex;
+}
+.center {
+    box-shadow: 0.1rem 0.11rem 10rem 5rem #fafdff;
+}
