@@ -13,8 +13,8 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: rgb(91, 53, 53); */
-    background: rgb(77, 64, 64);
+    background: rgb(91, 53, 53);
+    /* background: rgb(77, 64, 64); */
     position: absolute;
     z-index: -2;
 }
