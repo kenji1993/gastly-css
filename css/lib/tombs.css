@@ -1,0 +1,47 @@
+.tomb-1 {
+    position: absolute;
+    right: 45rem;
+    bottom: 0;
+}
+
+.tomb-2 {
+    position: absolute;
+    left: 5rem;
+    bottom: 3rem;
+}
+
+.tomb-2 > .stone {
+    height: 35rem;
+    width: 25rem;
+}
+
+.tomb-3 {
+    position: absolute;
+    right: 10rem;
+    bottom: 15rem;
+}
+
+.tomb-3 > .stone {
+    height: 18rem;
+    width: 10rem;
+    border-radius: 3.5rem 3.5rem 0 0;
+    background: rgb(21, 20, 20);
+}
+
+.tomb-4 {
+    position: absolute;
+    left: 50rem;
+    bottom: 18rem;
+}
+
+.tomb-4 > .stone ,
+.tomb-5 > .stone {
+    width: 9rem;
+    height: 14rem;
+}
+
+.tomb-5 {
+    position: absolute;
+    left: 35rem;
+    bottom: 16rem;
+}

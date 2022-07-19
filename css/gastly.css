@@ -3,8 +3,8 @@
 
 .aura {
     border-radius: 50%;
-
     box-shadow: 1rem 1rem 8rem 16rem rgb(159, 41, 159);
+    z-index: 1;
 }
 .gastly {
     align-items: center;
