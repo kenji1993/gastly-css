@@ -2,12 +2,14 @@
     position: absolute;
     right: 45rem;
     bottom: 0;
+    z-index: 1;
 }
 
 .tomb-2 {
     position: absolute;
     left: 5rem;
     bottom: 3rem;
+    z-index: 0;
 }
 
 .tomb-2 > .stone {
@@ -19,6 +21,7 @@
     position: absolute;
     right: 10rem;
     bottom: 15rem;
+    z-index: -5;
 }
 
 .tomb-3 > .stone {
@@ -44,4 +47,21 @@
     position: absolute;
     left: 35rem;
     bottom: 16rem;
+}
+.tomb-6 {
+    position: absolute;
+    bottom: 20rem;
+    right: 25rem;
+}
+.tomb-7 {
+    position: absolute;
+    bottom: 20rem;
+    right: 100rem;
+}
+
+.tomb-6 > .stone,
+.tomb-7 > .stone {
+    width: 7rem;
+    height: 10rem;
+    z-index: -6;
 }
